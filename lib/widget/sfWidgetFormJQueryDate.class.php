@@ -103,8 +103,8 @@ class sfWidgetFormJQueryDate extends sfWidgetForm
   {
     var daysInMonth = 32 - new Date(jQuery("#%s").val(), jQuery("#%s").val() - 1, 32).getDate();
 
-    jQuery("#%s option").attr("disabled", "");
-    jQuery("#%s option:gt(" + (%s) +")").attr("disabled", "disabled");
+    jQuery("#%s option").prop("disabled", false);
+    jQuery("#%s option:gt(" + (%s) +")").prop("disabled", true);
 
     if (jQuery("#%s").val() > daysInMonth)
     {
