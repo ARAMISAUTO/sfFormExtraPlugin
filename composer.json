@@ -1,0 +1,12 @@
+{
+    "name": "aramisauto/sfformextraplugin",
+    "authors": [
+        {
+            "name": "Tristan Rivoallan",
+            "email": "tristan@rivoallan.net"
+        }
+    ],
+    "require": {
+
+    }
+}
